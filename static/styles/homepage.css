@@ -1,0 +1,139 @@
+#logout{
+    font-family:Helvetica;
+    border:2px solid black;
+    margin:60px;
+    width:90%;
+   
+
+}
+.nav-item{
+    margin-left:90%;
+}
+.grid-img{
+    border:2px solid black;
+    width:90%;
+    margin:60px;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+    "img bienvenido.";
+}
+
+.imagen{
+    margin:2%;
+}
+
+.Bienvenido{
+    font-family:Helvetica;
+    text-align:center;
+}
+
+.grid-container{
+  border:2px solid black;
+  width:90%;
+  display: grid;
+  margin:60px;
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "uno dos tres .";
+}
+
+.grid-container a{
+    text-decoration:none;
+}
+.uno{
+    font-family:helvetica;
+    font-size:30px;
+    text-align:center;
+}
+
+.dos{
+    font-family:helvetica;
+    font-size:30px;
+    text-align:center;
+}
+
+.tres{
+    font-family:helvetica;
+    font-size:30px;
+    text-align:center;
+}
+
+section{
+    font-family:helvetica;
+    border:2px solid black;
+    width:90%;
+    margin:60px;
+}
+
+
+#noimg, #Comunidad, #Curiosidades{
+    width:50px;
+    height:50px;
+}
+
+h1{
+    text-align:center;
+}
+
+.img-grid{
+    width:90%;
+    display: grid;
+    margin:60px;
+    border:1px solid blue;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 50%);
+
+}
+
+.gafas{
+    margin:20px;
+    font-family:helvetica;
+}
+
+.comentarios{
+    margin:20px;
+    font-family:helvetica;
+}
+
+.quest-grid{
+    font-family:helvetica;
+    border:1px solid cyan;
+    width:90%;
+    display: grid;
+    margin:60px;
+    grid-template-rows: 50%;
+    grid-template-areas:
+    "question.";
+}
+
+.question{
+    font-family:helvetica;
+    width:90%;
+    margin:20px;
+}
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid black;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}

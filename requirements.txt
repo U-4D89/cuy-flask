@@ -1,0 +1,6 @@
+werkzeug.security
+werkzeug.exceptions
+flask_session
+flask
+tempfile
+cs50

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/styles/ayuda.css" rel="stylesheet">
+        <title>Directorio</title>
+    </head>
+
+    <body>
+        <div class="titulo">
+            <h2><img id="noimg" src='https://i.postimg.cc/s1WcxR1x/zanahoria.png'/></a>Directorio<img id="noimg" src='https://i.postimg.cc/s1WcxR1x/zanahoria.png'/></h1>
+            <button class="btn btn-primary"><a href="https://ide-0f92ce1027314243914035cc31212974-8080.cs50.ws/homepage">Volver</a></button>
+        </div>
+        <br><br>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Como se llama?</th>
+                        <th>Que hacen?</th>
+                        <th>Donde contactar?</th>
+                        <th>Donde se ubican?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for contacto in contactos %}
+                    <tr>
+                        <td> {{ contacto.nombre }} </td>
+                        <td> {{ contacto.info }} </td>
+                        <td> {{ contacto.contacto }} </td>
+                        <td> {{ contacto.ubicacion }} </td>
+                    </tr>
+                    {% endfor %}
+            </table>
+        </div>
+    </body>
+    <footer>
+    </footer>
+
+</html>
