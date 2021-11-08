@@ -3,4 +3,5 @@ werkzeug.exceptions
 flask_session
 flask
 tempfile
+sqlite3
 cs50
