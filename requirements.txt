@@ -1,7 +1,3 @@
-werkzeug.security
-werkzeug.exceptions
-flask_session
+werkzeug
 flask
-tempfile
-sqlite3
 cs50
